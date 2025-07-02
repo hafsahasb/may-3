@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-image: url(images/background-desktop.png); /* Update with your background image */
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.highlight{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ff6f61;
+}
+
+.email {
+    color: #ff6f61;
+}
+
+.svg{
+    background-size:contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ticket {
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    position: relative;
+    width: 100%; 
+
+}
+.ticket-pattern{
+    background: url('https://cdn.pixabay.com/photo/2017/08/30/01/01/ticket-2696210_1280.png') no-repeat center center;
+    background-size:contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5; /* Adjust opacity for visibility */
+    z-index: -1; /* Send to back */
+}
+
+.ticket-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+
+.ticket-date {
+    margin: 10px 0;
+}
+
+.ticket-holder {
+    margin: 25px;
+    flex: 1;
+    align-items: left;
+    margin-top: 15px;
+}
+
+.name{
+    font-size: 1.5em;
+    font: italic;
+    margin-left: 0; /* Adjusts any left margin */
+    
+}
+.avatar {
+    width: 100px; 
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+ 
+.footer {
+    background: url(images/pattern-squiggly-line-bottom-desktop.png)no-repeat center center;
+    background-size:contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5; /* Adjust opacity for visibility */
+    z-index: -1; /* Send to back */
+
+}
+
